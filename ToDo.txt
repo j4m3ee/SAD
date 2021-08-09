@@ -1,1 +1,1 @@
-test authentication with Git bash
+Test authentication with Git bash
