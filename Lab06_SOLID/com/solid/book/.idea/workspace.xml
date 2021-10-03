@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="643f60c4-3ec6-4fd2-8aa2-ead0ca62f8b5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1yypMy1zTIg63hJ14Ri1M5zR9qO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.BookReader">
+    <configuration name="BookPublisher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.solid.book.BookPublisher" />
+      <module name="book" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.solid.book.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.solid.book.BookReader" />
+      <module name="book" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.solid.book.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BookReader" />
+        <item itemvalue="Application.BookPublisher" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="643f60c4-3ec6-4fd2-8aa2-ead0ca62f8b5" name="Default Changelist" comment="" />
+      <created>1633233637302</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633233637302</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1024" y="357" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1633236522339">
+      <screen x="0" y="30" width="2560" height="1050" />
+    </state>
+    <state x="1024" y="357" key="#com.intellij.fileTypes.FileTypeChooser/2560.24.1536.840/0.30.2560.1050@0.30.2560.1050" timestamp="1633236522339" />
+    <state width="2517" height="285" key="GridCell.Tab.0.bottom" timestamp="1633237286969">
+      <screen x="0" y="30" width="2560" height="1050" />
+    </state>
+    <state width="2517" height="285" key="GridCell.Tab.0.bottom/2560.24.1536.840/0.30.2560.1050@0.30.2560.1050" timestamp="1633237286969" />
+    <state width="2517" height="285" key="GridCell.Tab.0.center" timestamp="1633237286968">
+      <screen x="0" y="30" width="2560" height="1050" />
+    </state>
+    <state width="2517" height="285" key="GridCell.Tab.0.center/2560.24.1536.840/0.30.2560.1050@0.30.2560.1050" timestamp="1633237286968" />
+    <state width="2517" height="285" key="GridCell.Tab.0.left" timestamp="1633237286968">
+      <screen x="0" y="30" width="2560" height="1050" />
+    </state>
+    <state width="2517" height="285" key="GridCell.Tab.0.left/2560.24.1536.840/0.30.2560.1050@0.30.2560.1050" timestamp="1633237286968" />
+    <state width="2517" height="285" key="GridCell.Tab.0.right" timestamp="1633237286969">
+      <screen x="0" y="30" width="2560" height="1050" />
+    </state>
+    <state width="2517" height="285" key="GridCell.Tab.0.right/2560.24.1536.840/0.30.2560.1050@0.30.2560.1050" timestamp="1633237286969" />
+  </component>
+</project>
