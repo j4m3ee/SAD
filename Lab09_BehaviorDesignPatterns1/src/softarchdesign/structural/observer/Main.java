@@ -5,7 +5,7 @@ import java.util.concurrent.Flow;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Use \"exit()\" to stop.");
+        System.out.println("Use \"exit()\" to exit.");
         Scanner input = new Scanner(System.in);
         String str = "";
 
@@ -31,7 +31,6 @@ public class Main {
 
         if(str.equals("exit()"))
             System.exit(0);
-
 
     }
 }

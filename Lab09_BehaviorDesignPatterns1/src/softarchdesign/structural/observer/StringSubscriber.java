@@ -32,15 +32,14 @@ abstract public class StringSubscriber  implements Subscriber<String>{
 
     @Override
     public void onNext(String item){
-        if (item != null) {
-            try {
-                Writer file = new FileWriter(filename + ".txt", true);
-                file.write(process(item));
-                file.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+        try {
+            Writer file = new FileWriter(filename + ".txt", true);
+            file.write(process(item));
+            file.close();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
+
     }
 
     @Override
