@@ -1,5 +1,6 @@
 package softarchdesign.structural.observer;
 
+import java.util.Objects;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Flow;
 
@@ -19,6 +20,10 @@ public class StringSubscription implements Flow.Subscription {
             IllegalArgumentException ex = new IllegalArgumentException();
             executor.execute(() -> subscriber.onError(ex));
         }
+    }
+
+    public boolean isSubscribe(String str) {
+        return ((StringSubscriber)subscriber).process(str);
     }
 
     @Override

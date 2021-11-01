@@ -7,9 +7,8 @@ public class NumberSubscriber extends StringSubscriber{
     }
 
     @Override
-    public String process(String str) {
-        if(str.matches(".*[0-9].*")) return str  + "\n";
-        return "";
+    public boolean process(String str) {
+        return str.matches(".*[0-9].*");
     }
 
 }

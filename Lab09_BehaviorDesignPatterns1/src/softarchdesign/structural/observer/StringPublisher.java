@@ -20,7 +20,8 @@ public class StringPublisher implements Flow.Publisher<String> {
 
     public void publish(String pub) {
         for (StringSubscription stringSubscription : subscriptions) {
-            stringSubscription.publish(pub);
+            if(stringSubscription.isSubscribe(pub))
+                stringSubscription.publish(pub);
         }
     }
 }

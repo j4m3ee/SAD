@@ -10,13 +10,13 @@ public class Main {
         String str = "";
 
         StringPublisher publisher = new StringPublisher();
-        Flow.Subscriber<String> sub1 = new NumberSubscriber();
-        Flow.Subscriber<String> sub2 = new SymbolSubscriber();
-        Flow.Subscriber<String> sub3 = new AlphabetSubscriber();
+        StringSubscriber subNumber = new NumberSubscriber();
+        StringSubscriber subSymbol = new SymbolSubscriber();
+        StringSubscriber subAlphabet = new AlphabetSubscriber();
 
-        publisher.subscribe(sub1);
-        publisher.subscribe(sub2);
-        publisher.subscribe(sub3);
+        publisher.subscribe(subNumber);
+        publisher.subscribe(subSymbol);
+        publisher.subscribe(subAlphabet);
 
         while (true) {
             System.out.print("Enter text : ");

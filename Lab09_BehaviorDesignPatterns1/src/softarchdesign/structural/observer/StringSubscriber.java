@@ -23,7 +23,7 @@ abstract public class StringSubscriber  implements Subscriber<String>{
         }
     }
 
-    abstract public String process(String str);
+    public abstract boolean process(String str);
 
     @Override
     public void onSubscribe(Flow.Subscription subscription) {
@@ -32,14 +32,13 @@ abstract public class StringSubscriber  implements Subscriber<String>{
 
     @Override
     public void onNext(String item){
-        try {
-            Writer file = new FileWriter(filename + ".txt", true);
-            file.write(process(item));
-            file.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
+         try {
+             Writer file = new FileWriter(filename + ".txt", true);
+             file.write(item + "\n");
+             file.close();
+         } catch (IOException e) {
+             e.printStackTrace();
+         }
     }
 
     @Override
